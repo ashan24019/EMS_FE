@@ -2,7 +2,7 @@ import React from 'react'
 
 function HelloWorld() {
   return (
-    <h1>HelloWorld</h1>
+    <h1 className='text-center'>HelloWorld</h1>
   )
 }
 
