@@ -9,3 +9,7 @@ export const ListEmployees = () => {
 export const CreateEmployee = (employee) => {
   return axios.post(REST_API_BASE_URL, employee);
 }
+
+export const GetEmployeeById = (employeeId) => {
+  return axios.get(`${REST_API_BASE_URL}/${employeeId}`);
+}
