@@ -13,3 +13,7 @@ export const CreateEmployee = (employee) => {
 export const GetEmployeeById = (employeeId) => {
   return axios.get(`${REST_API_BASE_URL}/${employeeId}`);
 }
+
+export const UpdateEmplyee = (employeeId, employee) => {
+  return axios.put(REST_API_BASE_URL + '/' + employeeId, employee)
+}
